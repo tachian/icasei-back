@@ -1,24 +1,32 @@
-# README
+# icasei-back
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Backend for icasei test
 
-Things you may want to cover:
+### Prerequisites
 
-* Ruby version
+[Install ruby](https://www.ruby-lang.org/en/documentation/installation/)
 
-* System dependencies
+### Configure
 
-* Configuration
+```
+bundle install
+```
 
-* Database creation
+### Create database
 
-* Database initialization
+```
+rake db:create
+rake db:migrate
+```
 
-* How to run the test suite
+### Running server
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+rails s
+```
 
-* Deployment instructions
+### Running tests
 
-* ...
+```
+rspec
+```
